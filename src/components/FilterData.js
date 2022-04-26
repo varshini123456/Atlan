@@ -328,63 +328,63 @@ function FilterData(props){
     return (
         <div>
             <div>
-                <Paper style={{ height: 400, width: '74%', textAlign: 'center' }}>
+                <Paper style={{ height: 400, width: '77%', textAlign: 'center' }}>
                     <VirtualizedTable
                     rowCount={rows.length}
                     rowGetter={({ index }) => rows[index]}
                     columns={[  
                         {
-                            width: 200,
+                            width: 240,
                             label: 'customerID',
                             dataKey: 'customerID',
                         },
                         {
-                            width: 120,
+                            width: 260,
                             label: 'companyName',
                             dataKey: 'companyName',
                         },
                         {
-                            width: 120,
+                            width: 260,
                             label: 'contactName',
                             dataKey: 'contactName',
                         },
                         {
-                            width: 120,
+                            width: 260,
                             label: 'contactTitle',
                             dataKey: 'contactTitle',
                         },
                         {
-                            width: 120,
+                            width: 260,
                             label: 'address',
                             dataKey: 'address',
                         },
                         {
-                            width: 120,
+                            width: 210,
                             label: 'city',
                             dataKey: 'city',
                         },
                         {
-                            width: 120,
+                            width: 200,
                             label: 'region',
                             dataKey: 'region',
                         },
                         {
-                            width: 120,
+                            width: 220,
                             label: 'postalCode',
                             dataKey: 'postalCode',
                         },
                         {
-                            width: 120,
+                            width: 200,
                             label: 'country',
                             dataKey: 'country',
                         },
                         {
-                          width: 120,
+                          width: 200,
                           label: 'phone',
                           dataKey: 'phone',
                         },
                         {
-                          width: 120,
+                          width: 200,
                           label: 'fax',
                           dataKey: 'fax',
                         },
